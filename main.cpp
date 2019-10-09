@@ -1,7 +1,11 @@
 #include <iostream>
+#include <string>
 
 int main()
 {
-    std::cout << "Hello World" << std::endl;
+    std::cout << "Enter some text \n> ";
+    std::string input;
+    cin >> input;
+    std::cout << "Hello World - " << input << std::endl;
     return 0;
 }
